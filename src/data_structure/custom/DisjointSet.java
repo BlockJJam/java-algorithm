@@ -1,6 +1,8 @@
 package data_structure.custom;
 
 
+import java.util.Arrays;
+
 /**
  *  상호배타적(=서로소) 집합
  *  - 의미: 서로 중복 포함된 원소가 없는 집합
@@ -15,4 +17,49 @@ package data_structure.custom;
  *      : 두 원소가 같은 집합에 있는지 여부를 확인하려는 곳
  */
 public class DisjointSet {
+    int parent[];
+    int rank[];
+
+    public DisjointSet(int n){
+        this.parent= new int[n+1];
+        this.rank = new int[n+1];
+
+        for(int i=1; i < n+1; i++){
+            this.parent[i] = i;
+        }
+        Arrays.fill(rank, 1);
+    }
+
+    public int find(int e){
+        if(this.parent[e] == e) return e;
+        return this.parent[e] = find(this.parent[e]);
+    }
+
+    public void union(int e1, int e2){
+        e1 = find(e1);
+        e2 = find(e2);
+
+        if(e1 == e2) return;
+
+        if(e1 < e2) {
+            this.parent[e2] = e1;
+        }else{
+            this.parent[e1] = e2;
+        }
+    }
+
+    public void unionByRank(int e1, int e2){
+        e1 = find(e1);
+        e2 = find(e2);
+
+        if(e1 == e2) return;
+
+        if(rank[e1] > rank[e2]){
+            this.parent[e2] = e1;
+        }else {
+            this.parent[e1] = e2;
+        }
+
+        if(rank[e1] == rank[e2]) ++rank[e2];
+    }
 }
