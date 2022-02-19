@@ -3,6 +3,7 @@ package algorithm.graph;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// 방향성이 있을 때의 bfs를 활용한 순환 탐지
 public class CycleDetectionByBFS {
     public static void main(String[] args) {
         Graph g = new Graph(5);
