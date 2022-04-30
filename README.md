@@ -66,12 +66,15 @@
     | --- | --- |
     | 1 |  |
     |  |  |
+
 - 자료구조 문제( Segment-Tree, Trie, Union-Joint Tree)
 
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
+    | 순번 | 이름 | 풀이여부 |
+    | --- | --- | --- |
+    | 1 | [스택](https://www.acmicpc.net/problem/10828) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/datastructure/Stack_10828.java) |
+    | 2 | [괄호문제](https://www.acmicpc.net/problem/9012) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/datastructure/ParenthesisString_9012.java) |
+    | 3 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/datastructure/Josephus_1158.java) |
+
 - BFS & DFS
 
     | 순번 | 이름 |
