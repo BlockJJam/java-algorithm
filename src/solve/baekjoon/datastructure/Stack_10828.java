@@ -32,7 +32,7 @@ public class Stack_10828 {
 
     static class StackUtil{
         // 문제용 배열 생성
-        private Deque<Integer> stack = new ArrayDeque<>();
+        private final Deque<Integer> stack = new ArrayDeque<>();
 
         public void call(String command, int x){
             if(command.equals("push"))
@@ -40,16 +40,17 @@ public class Stack_10828 {
         }
 
         public int call(String command){
-            if(command.equals("pop")) {
-                return this.pop();
-            } else if (command.equals("size")) {
-                return this.size();
-            } else if (command.equals("empty")) {
-                return this.empty();
-            } else if (command.equals("top")) {
-                return this.top();
-            } else{
-                return -1000;
+            switch (command) {
+                case "pop":
+                    return this.pop();
+                case "size":
+                    return this.size();
+                case "empty":
+                    return this.empty();
+                case "top":
+                    return this.top();
+                default:
+                    return -1000;
             }
         }
 
