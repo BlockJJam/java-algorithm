@@ -43,9 +43,7 @@ public class ParenthesisString_9012 {
                 }
             }
 
-            if(threshold == 0)
-                return true;
-            return false;
+            return threshold == 0;
 
         }
 
