@@ -36,10 +36,10 @@
 
 - 그리디
 
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
+    | 순번 | 이름 | 풀이여부 |
+    | --- | --- | --- |
+    | 1 | [거스름돈](https://www.acmicpc.net/problem/14916) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Change_14916.java)|
+    |  |  | |
 
 - 분할정복
 
