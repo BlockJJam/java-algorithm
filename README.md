@@ -40,7 +40,7 @@
     | --- | --- | --- |
     | 1 | [거스름돈](https://www.acmicpc.net/problem/14916) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Change_14916.java)|
     |  2 | [폴리오미노](https://www.acmicpc.net/problem/1343) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Polyomino_1343.java) |
-
+    | 3 | [로프](https://www.acmicpc.net/problem/2217) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Rope_2217.java) |
 - 분할정복
 
     | 순번 | 이름 |
