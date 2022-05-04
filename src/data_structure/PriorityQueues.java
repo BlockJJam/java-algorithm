@@ -10,10 +10,10 @@ public class PriorityQueues {
         // 힙 구성으로 "이진 트리"구조로 이루어짐
 
         // Integer & String의 우선순위 높은 순과 낮은 순의 선언부터
-        PriorityQueue<Integer> pqIntDesc = new PriorityQueue<>(); // Desc
-        PriorityQueue<Integer> pqIntAsc = new PriorityQueue<>(Collections.reverseOrder()); // Asc
-        PriorityQueue<String> pqStrDesc =  new PriorityQueue<>();
-        PriorityQueue<String> pqStrAsc = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> pqIntAsc = new PriorityQueue<>(); // Asc
+        PriorityQueue<Integer> pqIntDesc = new PriorityQueue<>(Collections.reverseOrder()); // Desc
+        PriorityQueue<String> pqStrAsc =  new PriorityQueue<>();
+        PriorityQueue<String> pqStrDesc = new PriorityQueue<>(Collections.reverseOrder());
 
         // add element
         pqIntDesc.add(0);
