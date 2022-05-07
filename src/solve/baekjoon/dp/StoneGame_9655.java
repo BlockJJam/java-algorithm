@@ -5,6 +5,19 @@ import java.util.StringTokenizer;
 
 public class StoneGame_9655 {
     static int N;
+    public static void main(String[] args) throws IOException {
+        BufferedReader br=  new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        N = Integer.parseInt(st.nextToken());
+        System.out.println(N%2 == 1? "SK" : "CY");
+
+    }
+}
+
+/*
+public class StoneGame_9655 {
+    static int N;
     static int[] dp;
     public static void main(String[] args) throws IOException {
         BufferedReader br=  new BufferedReader(new InputStreamReader(System.in));
@@ -27,10 +40,11 @@ public class StoneGame_9655 {
         }
 
         bw.write(dp[N-1] == 0? "SK": "CY");
-
+        System.out.println(N%2 == 1? "SK" : "CY");
 
         bw.flush();
         bw.close();
 
     }
 }
+ */

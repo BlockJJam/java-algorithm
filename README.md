@@ -56,10 +56,10 @@
     |  |  |
 - 동적 계획법
 
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
+    | 순번 | 이름 | 풀이여부 |
+    | --- | --- | ---|
+    | 1 |  [다리놓기](https://www.acmicpc.net/problem/1010)| [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/Bridge_1010.java) |
+    | 2 | [돌게임](acmicpc.net/problem/9655) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/StoneGame_9655.java) |
 - 구간 탐색(이진, 점프, 보간, 지수)
 
     | 순번 | 이름 |
