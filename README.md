@@ -60,6 +60,9 @@
     | --- | --- | ---|
     | 1 |  [다리놓기](https://www.acmicpc.net/problem/1010)| [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/Bridge_1010.java) |
     | 2 | [돌게임](acmicpc.net/problem/9655) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/StoneGame_9655.java) |
+    | 3 | [FourSquares](https://www.acmicpc.net/problem/17626) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/FourSquares_17626.java) |
+  
+
 - 구간 탐색(이진, 점프, 보간, 지수)
 
     | 순번 | 이름 |
@@ -77,10 +80,10 @@
 
 - BFS & DFS
 
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
+    | 순번 | 이름 | 풀이여부 |
+    | --- | --- | --- |
+    | 1 | [DFS와BFS](https://www.acmicpc.net/problem/1260) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/BfsDfs_1260.java) |
+    |  |  |  |
 - 위상정렬
 
     | 순번 | 이름 |
