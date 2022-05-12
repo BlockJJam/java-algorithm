@@ -27,91 +27,156 @@
 
 ##🥊 알고리즘 문제 정리
 
-- 백트래킹
-
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
-
-- 그리디
-
-    | 순번 | 이름 | 풀이여부 |
-    | --- | --- | --- |
-    | 1 | [거스름돈](https://www.acmicpc.net/problem/14916) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Change_14916.java)|
-    |  2 | [폴리오미노](https://www.acmicpc.net/problem/1343) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Polyomino_1343.java) |
-    | 3 | [로프](https://www.acmicpc.net/problem/2217) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Rope_2217.java) |
-- 분할정복
-
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
-
-- 완전 탐색
-
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
-- 동적 계획법
-
-    | 순번 | 이름 | 풀이여부 |
-    | --- | --- | ---|
-    | 1 |  [다리놓기](https://www.acmicpc.net/problem/1010)| [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/Bridge_1010.java) |
-    | 2 | [돌게임](acmicpc.net/problem/9655) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/StoneGame_9655.java) |
-    | 3 | [FourSquares](https://www.acmicpc.net/problem/17626) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/FourSquares_17626.java) |
-  
-
-- 구간 탐색(이진, 점프, 보간, 지수)
-
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
-
 - 자료구조 문제( Segment-Tree, Trie, Union-Joint Tree)
 
-    | 순번 | 이름 | 풀이여부 |
-    | --- | --- | --- |
-    | 1 | [스택](https://www.acmicpc.net/problem/10828) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/datastructure/Stack_10828.java) |
-    | 2 | [괄호문제](https://www.acmicpc.net/problem/9012) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/datastructure/ParenthesisString_9012.java) |
-    | 3 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/datastructure/Josephus_1158.java) |
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 | [스택](https://www.acmicpc.net/problem/10828) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/datastructure/Stack_10828.java) |
+  | 2 | [괄호문제](https://www.acmicpc.net/problem/9012) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/datastructure/ParenthesisString_9012.java) |
+  | 3 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/datastructure/Josephus_1158.java) |
+
+- 트리
+
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 | [트리부모찾기](https://www.acmicpc.net/problem/11725) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/tree/FindTreeParent_11725.java) |
+  | 2 | [트리순회](https://www.acmicpc.net/problem/1991) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/tree/TreeOrder_1991.java) |
+  |  |  |  |
+
+- 수학
+
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+  
+- 그리디
+
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 | [거스름돈](https://www.acmicpc.net/problem/14916) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Change_14916.java)|
+  |  2 | [폴리오미노](https://www.acmicpc.net/problem/1343) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Polyomino_1343.java) |
+  | 3 | [로프](https://www.acmicpc.net/problem/2217) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Rope_2217.java) |
+
+- 동적 계획법
+
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | ---|
+  | 1 |  [다리놓기](https://www.acmicpc.net/problem/1010)| [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/Bridge_1010.java) |
+  | 2 | [돌게임](acmicpc.net/problem/9655) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/StoneGame_9655.java) |
+  | 3 | [FourSquares](https://www.acmicpc.net/problem/17626) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/FourSquares_17626.java) |
+
+- 투포인터
+
+  | 순번 | 이름 | 풀이여부 |
+          | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
+- 구현
+
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
 
 - BFS & DFS
 
-    | 순번 | 이름 | 풀이여부 |
-    | --- | --- | --- |
-    | 1 | [DFS와BFS](https://www.acmicpc.net/problem/1260) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/BfsDfs_1260.java) |
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 | [DFS와BFS](https://www.acmicpc.net/problem/1260) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/BfsDfs_1260.java) |
   | 2 | [효율적인 탐색](https://www.acmicpc.net/problem/1325) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/EffectiveHacking_1325.java) |
   | 3 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/MiroSearch.java) |
-- 위상정렬
 
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
+- 완전 탐색
+
+  | 순번 | 이름 | 풀이여부 |
+        | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
+- 시뮬레이션
+
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
+
+- 이분탐색
+
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
+- 백트래킹
+
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
+
+- 분할정복
+
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
+- 누적 합
+
+  | 순번 | 이름 | 풀이여부 |
+          | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
 - 문자열
 
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
+  | 순번 | 이름 | 풀이여부 |
+        | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
+- 최단거리
+
+  | 순번 | 이름 | 풀이여부 |
+        | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
+- 위상정렬
+
+  | 순번 | 이름 | 풀이여부 |
+        | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
 - 최소스패닝트리(MST, Kruskal, Prim)
 
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
-- 투포인터
+  | 순번 | 이름 | 풀이여부 |
+        | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
 
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
+- 구간 탐색(이진, 점프, 보간, 지수)
+
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
+- DP on Tree
+
+  | 순번 | 이름 | 풀이여부 |
+        | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
 - 펜윅트리
 
-    | 순번 | 이름 |
-    | --- | --- |
-    | 1 |  |
-    |  |  |
+  | 순번 | 이름 | 풀이여부 |
+      | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
