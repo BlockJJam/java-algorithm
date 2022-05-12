@@ -83,7 +83,8 @@
     | 순번 | 이름 | 풀이여부 |
     | --- | --- | --- |
     | 1 | [DFS와BFS](https://www.acmicpc.net/problem/1260) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/BfsDfs_1260.java) |
-    |  |  |  |
+  | 2 | [효율적인 탐색](https://www.acmicpc.net/problem/1325) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/EffectiveHacking_1325.java) |
+  | 3 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/MiroSearch.java) |
 - 위상정렬
 
     | 순번 | 이름 |
