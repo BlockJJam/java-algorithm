@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class MiroSearch {
+public class MiroSearch_2178 {
     static int N,M;
 
     public static void main(String[] args) throws Exception{

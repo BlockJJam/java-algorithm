@@ -41,6 +41,7 @@
       | --- | --- | --- |
   | 1 | [트리부모찾기](https://www.acmicpc.net/problem/11725) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/tree/FindTreeParent_11725.java) |
   | 2 | [트리순회](https://www.acmicpc.net/problem/1991) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/tree/TreeOrder_1991.java) |
+  | 3 | [완전이진트리](https://www.acmicpc.net/problem/9934) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/tree/CompleteBinaryTree_9934.java) |
   |  |  |  |
 
 - 수학
