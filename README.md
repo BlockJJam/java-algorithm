@@ -48,8 +48,10 @@
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
-  | 1 |  |  |
-  |  |  |  |
+  | 1 | [에라토스테네스의체](https://www.acmicpc.net/problem/2960) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/math/Eratos_2960.java) |
+  | 2 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/math/GCDLCM_2609.java) |
+  | 3 | [LCM](https://www.acmicpc.net/problem/5347) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/math/LCM_5347.java) |
+  | 4 | [소수와 펠린드롬](https://www.acmicpc.net/problem/1747) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/math/PrimeAndPelindrome_1747.java) |
   
 - 그리디
 
