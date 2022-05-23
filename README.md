@@ -75,12 +75,12 @@
   | --- | --- | --- |
   | 1 | [블로그](https://www.acmicpc.net/problem/21921) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/twopointer/Blog_21921.java) |
   | 2 | [겹치는건싫어](https://www.acmicpc.net/problem/20922) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/twopointer/HateOverlap_20922.java) |
-
+  | 3 | [회전초밥](https://www.acmicpc.net/problem/15961) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/twopointer/RotateSusi_15961.java) |
 - 구현
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
-  | 1 |  |  |
+  | 1 | [상어초등학교](https://www.acmicpc.net/problem/21608) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/implement/SharkElementarySchool_21608.java) |
   |  |  |  |
 
 - BFS & DFS
