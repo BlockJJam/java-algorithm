@@ -96,7 +96,8 @@
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
-  | 1 |  |  |
+  | 1 | [DNA](https://www.acmicpc.net/problem/1969) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/Dna_1969.java) |
+  | 2 | [카드놓기](https://www.acmicpc.net/problem/5568) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/PlaceCard_5568.java) |
   |  |  |  |
 
 - 시뮬레이션
