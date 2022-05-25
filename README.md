@@ -81,7 +81,8 @@
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
   | 1 | [상어초등학교](https://www.acmicpc.net/problem/21608) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/implement/SharkElementarySchool_21608.java) |
-  |  |  |  |
+  | 2 | [지뢰찾기](https://www.acmicpc.net/problem/4396) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/implement/MineSearching_4396.java) |
+  | 3 | [소가 길을 건너간 이유1](https://www.acmicpc.net/problem/14467) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/implement/CowCrossReason_14467.java) |
 
 - BFS & DFS
 
