@@ -98,7 +98,7 @@
   | --- | --- | --- |
   | 1 | [DNA](https://www.acmicpc.net/problem/1969) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/Dna_1969.java) |
   | 2 | [카드놓기](https://www.acmicpc.net/problem/5568) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/PlaceCard_5568.java) |
-  |  |  |  |
+  | 3 | [코인게임](https://www.acmicpc.net/problem/9079) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/CoinGame_9079.java) |
 
 - 시뮬레이션
 
