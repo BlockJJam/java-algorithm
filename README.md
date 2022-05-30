@@ -104,7 +104,7 @@
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
-  | 1 |  |  |
+  | 1 | [인구이동](https://www.acmicpc.net/problem/16234) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/simulation/PopulationMigration_16234.java) |
   |  |  |  |
 
 
