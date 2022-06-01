@@ -5,6 +5,8 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 
 public class NumberCard_10815 {
@@ -18,7 +20,7 @@ public class NumberCard_10815 {
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         N = Integer.parseInt(st.nextToken());
-        cards = new int[N];
+        /*cards = new int[N];
 
         st = new StringTokenizer(br.readLine());
         for(int i=0; i<N; i++){
@@ -34,6 +36,25 @@ public class NumberCard_10815 {
         for(int i=0; i<M; i++){
             target = Integer.parseInt(st.nextToken());
             if(binarySearch(0, N-1)){
+                bw.write("1 ");
+            }else{
+                bw.write("0 ");
+            }
+        }*/
+
+        // HashMap
+        Map<Integer, Boolean> map = new HashMap<>();
+        st = new StringTokenizer(br.readLine());
+        for(int i=0; i<N; i++){
+            map.put(Integer.parseInt(st.nextToken()), true);
+        }
+
+        st = new StringTokenizer(br.readLine());
+        M = Integer.parseInt(st.nextToken());
+
+        st = new StringTokenizer(br.readLine());
+        for(int i=0; i<M; i++){
+            if(map.containsKey(Integer.parseInt(st.nextToken()))) {
                 bw.write("1 ");
             }else{
                 bw.write("0 ");
