@@ -9,8 +9,8 @@ public class Combination {
 
     public static void main(String[] args) {
 //        comb(0,2);
-        output = new int[2];
-        dupComb(0,0,2);
+        output = new int[4];
+        dupComb(0,0,4);
     }
 
     // 일반 조합
