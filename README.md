@@ -120,8 +120,8 @@
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
-  | 1 |  |  |
-  |  |  |  |
+  | 1 | [계랸으로 계란치기](https://www.acmicpc.net/problem/16987) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/backtracking/BreakEgg_16987.java) |
+  | 2 | [넴모넴모](https://www.acmicpc.net/problem/14712) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/backtracking/NemoNemo_14712.java) |
 
 
 - 분할정복
