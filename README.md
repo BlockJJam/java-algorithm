@@ -128,8 +128,9 @@
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
-  | 1 |  |  |
-  |  |  |  |
+  | 1 | [색종이 만들기](https://www.acmicpc.net/problem/2630) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/divideconquer/ColorPaperMake_2630.java) |
+  | 2 | [222-풀링](https://www.acmicpc.net/problem/17829) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/divideconquer/Pooling222_17829.java) |
+  | 3 | [투에-모스 문자열](https://www.acmicpc.net/problem/18222) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/divideconquer/ThueMorseString_18222.java) |
 
 - 누적 합
 
