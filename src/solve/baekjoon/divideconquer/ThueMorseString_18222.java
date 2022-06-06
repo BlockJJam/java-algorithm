@@ -41,14 +41,12 @@ public class ThueMorseString_18222 {
             long KPow =0;
             long prevPow = 0;
             while(loop >=0){
-//                System.out.println(loop);
                 KPow = (long)Math.pow(2,loop);
                 if(KPow >= K)
                     break;
                 prevPow = KPow;
                 loop++;
             }
-//            System.out.println("K: "+ K +" prev: "+prevPow);
             findCharToK(K - prevPow, cnt+1);
 
         }
