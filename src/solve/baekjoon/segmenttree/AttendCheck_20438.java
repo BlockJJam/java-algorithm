@@ -1,4 +1,4 @@
-package solve.baekjoon;
+package solve.baekjoon.segmenttree;
 
 
 import java.io.BufferedReader;
