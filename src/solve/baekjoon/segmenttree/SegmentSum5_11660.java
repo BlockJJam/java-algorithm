@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
@@ -17,74 +18,59 @@ public class SegmentSum5_11660 {
 
         int[][] graph  = new int[N+1][N+1];
 
+        FenwickTree[] ft = new FenwickTree[N+1];
+        for(int i=1; i<N+1; i++){
+            ft[i] = new FenwickTree(N);
+        }
         for (int i = 1; i < N + 1; i++) {
             for (int j = 1; j < N + 1; j++) {
-                graph[i][j] = rd.nextInt();
+                 ft[i].add(j, rd.nextInt());
             }
         }
 //        printGraph(graph);
-
-        SegmentTree st = new SegmentTree(N, 1,N,1,N);
-        st.init(graph, 1,1,N,1,N);
-
-        long sum =0;
-        for(int i=0;i<M;i++){
+        StringBuilder sb = new StringBuilder();
+        long[][] dp = new long[N+1][N+1];
+        long sum = 0;
+        for(int i=0; i<M; i++){
             sum = 0;
             int x1 = rd.nextInt();
             int y1 = rd.nextInt();
             int x2 = rd.nextInt();
             int y2 = rd.nextInt();
-            sum = st.sum(x1,x2,y1,y2);
-            System.out.println(sum);
+            for (int j = x1; j <= x2; j++) {
+                dp[j][y1-1] = dp[j][y1-1] != 0? dp[j][y1-1]: ft[j].getSum(y1-1);
+                dp[j][y2] = dp[j][y2] != 0? dp[j][y2] : ft[j].getSum(y2);
+                sum += dp[j][y2] - dp[j][y1-1];
+            }
+            sb.append(sum + "\n");
         }
 
+        System.out.println(sb.toString());
     }
 
-    static class SegmentTree{
+    static class FenwickTree{
         long[] tree;
-        int startXIdx;
-        int endXIdx;
-        int startYIdx;
-        int endYIdx;
-        int NODE_START=1;
+        int n;
 
-        SegmentTree(int n, int startX, int endX, int startY, int endY){
-            double height = ceil(log(n)/log(2))+1;
-            long nodeCnt = round(pow(4, height));
-            tree = new long[toIntExact(nodeCnt)];
-            this.startXIdx = startX;
-            this.endXIdx = endX;
-            this.startYIdx = startY;
-            this.endYIdx = endY;
+        FenwickTree(int n){
+            tree = new long[n+1];
+            this.n = n;
         }
 
-        long init(int[][] arr, int node, int x1, int x2, int y1, int y2){
-            // leaf node
-            if(x1 == x2 && y1 == y2){
-                return tree[node] = arr[x1][y1];
-            }else{
-                return tree[node] = init(arr, node * 4, x1, (x1+x2) / 2, y1, (y1+y2)/2)
-                        + init(arr, node * 4+1, (x1+x2)/2+1, x2, y1, (y1+y2)/2)
-                        + init(arr, node * 4+2, x1, (x1+x2)/2, (y1+y2)/2+1, y2)
-                        + init(arr, node * 4+3, (x1+x2)/2+1, x2, (y1+y2)/2+1, y2);
+        public void add(int pos, int val){
+            while(pos <= n){
+                tree[pos] += val;
+                pos += (pos & -pos);
             }
         }
 
-        long sum(int node, int startX, int endX, int startY, int endY, int leftX, int rightX, int leftY, int rightY ){
-            if(endX < leftX || rightX < startX || endY < leftY || rightY < startY){
-                return 0L;
-            }else if(leftX <= startX && endX <= rightX && leftY <= startY && endY <= rightY){
-                return tree[node];
-            }else{
-                return sum(node * 4, startX, (startX + endX) / 2, startY, (startY + endY)/2, leftX, rightX, leftY, rightY)
-                        + sum(node * 4+1, (startX + endX) / 2+1, endX, startY, (startY + endY)/2, leftX, rightX, leftY, rightY)
-                        + sum(node * 4+2, startX, (startX + endX) / 2, (startY + endY)/2+1, endY, leftX, rightX, leftY, rightY)
-                        + sum(node * 4+3, (startX + endX) / 2+1,  endX, (startY + endY)/2+1, endY, leftX, rightX, leftY, rightY);
+        public long getSum(int pos){
+            long result = 0;
+            while(pos > 0){
+                result += tree[pos];
+                pos &= (pos-1);
             }
-        }
-
-        long sum(int leftX, int rightX, int leftY, int rightY){
-            return sum(NODE_START, startXIdx, endXIdx, startYIdx, endYIdx, leftX, rightX, leftY, rightY);
+            return result;
         }
     }
 

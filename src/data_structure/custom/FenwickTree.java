@@ -10,7 +10,6 @@ public class FenwickTree {
         }
     }
 
-
     public static long getSumToIndexRangeValue(int idx){
         long result = 0;
         while(idx > 0){
