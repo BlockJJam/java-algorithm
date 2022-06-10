@@ -136,7 +136,9 @@
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
-  | 1 |  |  |
+  | 1 | [출석체크](https://www.acmicpc.net/problem/20438) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/segmenttree/AttendCheck_20438.java) |
+  | 2 | [구간합 구하기5](https://www.acmicpc.net/problem/11660) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/segmenttree/SegmentSum5_11660.java) |
+  | 3 | [피아노 체조](https://www.acmicpc.net/problem/21318) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/segmenttree/PianoGymnastic_21318.java) |
   |  |  |  |
 
 - 문자열
