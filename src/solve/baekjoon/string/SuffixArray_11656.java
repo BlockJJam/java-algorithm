@@ -3,10 +3,7 @@ package solve.baekjoon.string;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class SuffixArray_11656 {
     public static void main(String[] args) {
@@ -19,51 +16,80 @@ public class SuffixArray_11656 {
         }
     }
 
-    public static List<Integer> makeSuffixArray(String text){
-        int pivot = 1;
+    private static List<Integer> makeSuffixArray(String text){
         int n = text.length();
+        int t = 1;
 
-        List<Integer> suffixes = new ArrayList<>();
-        int[] dividedGroup = new int[n];
+        List<Integer> perm = new ArrayList<>();
 
-        for(int i=0; i<n; i++){
-            suffixes.add(i);
-            dividedGroup[i] = text.charAt(i) -'a';
+        int[] group = new int[n+1];
+        for(int i=0 ; i<n; i++){
+            perm.add(i);
+            group[i] = text.charAt(i) - 'a';
         }
 
-        while (pivot < n) {
-            int[] copiedDividedGroup = dividedGroup;
-            int compPivot = pivot;
+        group[n] = -1;
+        CompUsing2T compUsing2T = new CompUsing2T(n, t, group);
 
-            Collections.sort(suffixes, (idx1, idx2) -> {
-                if (copiedDividedGroup[idx1] != copiedDividedGroup[idx2]) {
-                    return copiedDividedGroup[idx1] - copiedDividedGroup[idx2];
+        while(t < n){
+            Collections.sort(perm, compUsing2T.comparator);
+
+            t *= 2;
+            if(t >= n) break;
+
+            int[] newGroup = new int[n+1];
+
+            newGroup[perm.get(0)] = 0;
+            newGroup[n] = -1;
+
+            for(int i =1; i<n; i++){
+                if(compUsing2T.comparator.compare(perm.get(i-1), perm.get(i))<0){
+                    newGroup[perm.get(i)] = newGroup[perm.get(i - 1)] + 1;
+                }else{
+                    newGroup[perm.get(i)] = newGroup[perm.get(i-1)];
                 }
 
-                int left = idx1 + compPivot >= n ? -1 : idx1 + compPivot;
-                int right = idx2 + compPivot >= n ? -1 : idx2 + compPivot;
-
-                return left - right;
-            });
-
-            int[] newGroup = new int[n];
-            newGroup[suffixes.get(0)] = 0;
-
-            for (int i = 1; i < n; i++) {
-                if (dividedGroup[suffixes.get(i - 1)] < dividedGroup[suffixes.get(i)]) {
-                    newGroup[suffixes.get(i)] = newGroup[suffixes.get(i - 1)] + 1;
-                } else {
-                    newGroup[suffixes.get(i)] = newGroup[suffixes.get(i - 1)];
-                }
             }
-
-            dividedGroup = newGroup;
-            pivot *= 2;
+            group = newGroup;
+            compUsing2T.changeValues(t, group);
         }
 
-        return suffixes;
+        return perm;
     }
 
+    static class CompUsing2T {
+        private int n;
+        private int t;
+        private int[] group;
+
+        public CompUsing2T(int n, int t, int[] group) {
+            this.n = n;
+            this.t = t;
+            this.group = group;
+        }
+
+        public void changeValues(int t, int[] group){
+            this.t = t;
+            this.group = Arrays.copyOf(group, group.length);
+        }
+
+        private Comparator<Integer> comparator = new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                if(group[o1] != group[o2]){
+                    return group[o1] - group[o2];
+                }
+
+                int left = o1 +t, right = o2 +t;
+                if(left > n)
+                    left = n;
+                if(right > n)
+                    right = n;
+
+                return group[left] - group[right];
+            }
+        };
+    }
 
     static class FastReader {
         BufferedReader br;
