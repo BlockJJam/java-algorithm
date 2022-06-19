@@ -148,7 +148,8 @@
   | 1 | [그룹 문자 체커](https://www.acmicpc.net/problem/1316)  | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/string/GroupWordChecker_1316.java) |
   | 2 | [!밀비급일](https://www.acmicpc.net/problem/11365)  | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/string/TopSecret_11365.java) |
   | 3 | [부분문자열](https://www.acmicpc.net/problem/16916)  | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/string/PartialString_16916.java) |
-  |  |  |  |
+  | 4 | [크로아티아 알파벳](https://www.acmicpc.net/problem/2941) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/string/CroatiaAlphabet_2941.java) |
+  | 5 | [접미사 배열](https://www.acmicpc.net/problem/11656) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/string/SuffixArray_11656.java) |
 
 - 최단거리
 
