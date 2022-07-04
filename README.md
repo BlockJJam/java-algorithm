@@ -156,6 +156,8 @@
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
   | 1 | [특정거리의 도시 찾기](https://www.acmicpc.net/problem/18352) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/shortestpath/SpecificTownSearch_18352.java)  |
+  | 2 | [숨바꼭질3](https://www.acmicpc.net/problem/13549) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/shortestpath/HideAndSeek3_13549.java) |
+  | 3 | [끝나지 않는 파티](https://www.acmicpc.net/problem/11265) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/shortestpath/NeverStopParty_11265.java) |
   |  |  |  |
 
 - 위상정렬
