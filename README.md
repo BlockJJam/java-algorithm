@@ -164,7 +164,8 @@
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
-  | 1 |  |  |
+  | 1 | [선수과목](https://www.acmicpc.net/problem/14567) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/topological/Prerequisite_14567.java) |
+  | 2 | [ACM Craft](https://www.acmicpc.net/problem/1005) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/topological/ACMCraft_1005.java) |
   |  |  |  |
 
 - 최소스패닝트리(MST, Kruskal, Prim)
