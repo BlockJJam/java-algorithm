@@ -175,7 +175,7 @@
   | --- | --- | --- |
   | 1 | [네트워크연결](https://www.acmicpc.net/problem/1922) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/mst/NetworkConnection_1922.java) |
   | 2 | [도시분할계획](https://www.acmicpc.net/submit/1647) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/mst/TownDividePlan_1647.java) |
-  |  |  |  |
+  | 3 | [행성연결](https://www.acmicpc.net/problem/16398) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/mst/PlanetConnection_16398.java) |
 
 - 구간 탐색(이진, 점프, 보간, 지수)
 
