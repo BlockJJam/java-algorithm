@@ -177,11 +177,13 @@
   | 2 | [도시분할계획](https://www.acmicpc.net/submit/1647) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/mst/TownDividePlan_1647.java) |
   | 3 | [행성연결](https://www.acmicpc.net/problem/16398) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/mst/PlanetConnection_16398.java) |
 
-- 구간 탐색(이진, 점프, 보간, 지수)
+- Disjoint Set(분리집합)
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
-  | 1 |  |  |
+  | 1 | [여행 가자](https://www.acmicpc.net/problem/1976) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/disjointset/GoTrip_1969.java) |
+  | 2 | [로봇 조립](https://www.acmicpc.net/problem/18116) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/disjointset/MakeRobot_18116.java) |
+  | 3 | [친구비](https://www.acmicpc.net/problem/16562) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/disjointset/FriendsCost_16562.java) |
   |  |  |  |
 
 - DP on Tree
@@ -192,6 +194,13 @@
   |  |  |  |
 
 - 펜윅트리
+
+  | 순번 | 이름 | 풀이여부 |
+  | --- | --- | --- |
+  | 1 |  |  |
+  |  |  |  |
+
+- 구간 탐색(이진, 점프, 보간, 지수)
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
