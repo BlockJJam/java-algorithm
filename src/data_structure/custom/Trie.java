@@ -25,7 +25,7 @@ import java.util.Map;
 public class Trie {
     private TrieNode rootNode;
     Trie(){
-        rootNode = new TrieNode();
+        this.rootNode = new TrieNode();
     }
 
     // 동작 방식 1)
@@ -92,23 +92,24 @@ public class Trie {
             return isDeleted;
         }
     }
+
+    static class TrieNode{
+        // child node
+        private Map<Character,TrieNode> childNodes = new HashMap<>();
+        private boolean isLastChar;
+
+        Map<Character, TrieNode> getChildNodes(){
+            return this.childNodes;
+        }
+
+        boolean isLastChar(){
+            return this.isLastChar;
+        }
+
+        void setIsLastChar(boolean isLastChar) {
+            this.isLastChar = isLastChar;
+        }
+    }
 }
 
 
-class TrieNode{
-    // child node
-    private Map<Character,TrieNode> childNodes = new HashMap<>();
-    private boolean isLastChar;
-
-    Map<Character, TrieNode> getChildNodes(){
-        return this.childNodes;
-    }
-
-    boolean isLastChar(){
-        return this.isLastChar;
-    }
-
-    void setIsLastChar(boolean isLastChar) {
-        this.isLastChar = isLastChar;
-    }
-}
