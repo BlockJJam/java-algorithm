@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class PhoneBook {
+public class PhoneBook_5052 {
     public static void main(String[] args) {
         FastReader rd = new FastReader();
 
