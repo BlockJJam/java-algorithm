@@ -186,6 +186,14 @@
   | 3 | [친구비](https://www.acmicpc.net/problem/16562) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/disjointset/FriendsCost_16562.java) |
   |  |  |  |
 
+- Trie
+
+  | 순번 | 이름 | 풀이여부 |
+  | --- | --- | --- |
+  | 1 | [문자열 지옥에 빠진 호석](https://www.acmicpc.net/problem/20166) | [12/16](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/trie/GoToStringHell_20166.java) |
+  | 2 | [전화번호 목록](https://www.acmicpc.net/problem/5052) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/trie/PhoneBook_5052.java) |
+  | 3 | [개미굴](https://www.acmicpc.net/problem/14725) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/trie/AntDen_14725.java) |
+
 - DP on Tree
 
   | 순번 | 이름 | 풀이여부 |
@@ -193,12 +201,7 @@
   | 1 |  |  |
   |  |  |  |
 
-- 펜윅트리
 
-  | 순번 | 이름 | 풀이여부 |
-  | --- | --- | --- |
-  | 1 |  |  |
-  |  |  |  |
 
 - 구간 탐색(이진, 점프, 보간, 지수)
 
