@@ -89,7 +89,7 @@
   | 1 | [상어초등학교](https://www.acmicpc.net/problem/21608) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/implement/SharkElementarySchool_21608.java) |
   | 2 | [지뢰찾기](https://www.acmicpc.net/problem/4396) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/implement/MineSearching_4396.java) |
   | 3 | [소가 길을 건너간 이유1](https://www.acmicpc.net/problem/14467) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/implement/CowCrossReason_14467.java) |
-  | 4 | []() | [not yet]() |
+  | 4 | [ZOAC 3](https://www.acmicpc.net/problem/20436) | [not yet]() |
 
 - BFS & DFS
 
@@ -98,8 +98,8 @@
   | 1 | [DFS와BFS](https://www.acmicpc.net/problem/1260) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/BfsDfs_1260.java) |
   | 2 | [효율적인 탐색](https://www.acmicpc.net/problem/1325) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/EffectiveHacking_1325.java) |
   | 3 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/MiroSearch.java) |
-  | 4 | [ZOAC 3](https://www.acmicpc.net/problem/20436) | [not yet]() |
-
+  | 4 | [봄버맨](https://www.acmicpc.net/problem/16918) | [not yet]() |
+  | 5 | [치즈](https://www.acmicpc.net/problem/2636) | [not yet]() |
 - 완전 탐색
 
   | 순번 | 이름 | 풀이여부 |
@@ -107,9 +107,7 @@
   | 1 | [DNA](https://www.acmicpc.net/problem/1969) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/Dna_1969.java) |
   | 2 | [카드놓기](https://www.acmicpc.net/problem/5568) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/PlaceCard_5568.java) |
   | 3 | [코인게임](https://www.acmicpc.net/problem/9079) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/CoinGame_9079.java) |
-  | 4 | [봄버맨](https://www.acmicpc.net/problem/16918) | [not yet]() |
-  | 5 | [치즈](https://www.acmicpc.net/problem/2636) | [not yet]() |
-  | 6 | [퇴사](https://www.acmicpc.net/problem/14501) | [not yet]() |
+  | 4 | [퇴사](https://www.acmicpc.net/problem/14501) | [not yet]() |
 - 시뮬레이션
 
   | 순번 | 이름 | 풀이여부 |
