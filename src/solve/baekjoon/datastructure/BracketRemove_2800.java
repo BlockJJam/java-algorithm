@@ -3,71 +3,72 @@ package solve.baekjoon.datastructure;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.PriorityQueue;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class BracketRemove_2800 {
     static String operStr = "";
+    static Set<String> set = new HashSet<>();
     static PriorityQueue<String> pq = new PriorityQueue<>();
 
     public static void main(String[] args) {
         FastReader rd = new FastReader();
         operStr = rd.next();
 
-        int bracketCnt = 0;
-        for(int i = 0; i< operStr.length(); i++){
-            if(operStr.charAt(i) == '('){
-                bracketCnt++;
-            }
-        }
-
-        removeBracket(0, false, operStr, bracketCnt);
-        while(!pq.isEmpty()){
-            System.out.println(pq.poll());
+        removeBracket(-1, false, operStr);
+        List<String> test = new ArrayList<>(set);
+        Collections.sort(test);
+        for(String str: test){
+            System.out.println(str);
         }
     }
 
-    static void removeBracket(int idx, boolean removing, String target, int total){
-//        System.out.println("idx: "+idx);
-
-
+    static void removeBracket(int idx, boolean removing, String target){
         // removing이 true면 괄호찾기
+        boolean removed = false;
         if(removing){
-            // '(' 지우기
-            int findCnt = 0;
-            int nextStart = 0;
-            for(int i =0; i< target.length(); i++){
+            for(int i =idx; i< target.length(); i++){
                 // '(' 지우기
-                if(target.charAt(i) == '(') ++findCnt;
-                if(findCnt == idx){
+                if(target.charAt(i) == '('){
                     target = removeAndReturn(target, i);
-                    nextStart = i;
+                    removed = true;
                     break;
                 }
             }
 
-            findCnt = 0;
-            for(int i = nextStart; i<target.length(); i++){
-                if(target.charAt(i) == '(') ++findCnt;
-                if(target.charAt(i) == ')'){
-                    if(findCnt == 0){
-                        target = removeAndReturn(target, i);
-                        break;
+            if(removed){
+                int findCnt = 0;
+                for (int i = idx; i < target.length(); i++) {
+                    if (target.charAt(i) == '(') ++findCnt;
+                    if (target.charAt(i) == ')') {
+                        if (findCnt == 0) {
+                            target = removeAndReturn(target, i);
+                            break;
+                        }
+                        findCnt--;
                     }
-                    findCnt--;
                 }
             }
-            idx--;
-            total--;
         }
-        if(idx == total ){
-            if(target.equals(operStr)) return;
-            pq.offer(target);
-//            System.out.println(target);
+        idx = removing ? idx: idx+1;
+
+        if(idx >= target.length() - 1){
+            if(target.equals(operStr) || !removing) return;
+            set.add(target);
             return;
         }
-        removeBracket(idx+1, false, target, total);
-        removeBracket(idx+1, true, target, total);
+
+
+        for(int i=idx; i< target.length(); i++){
+            if(target.charAt(i) == '(') {
+                idx = i;
+                break;
+            }
+            if(i == target.length()-1)
+                idx = i;
+        }
+
+        removeBracket(idx, true, target);
+        removeBracket(idx, false, target);
     }
 
     private static String removeAndReturn(String target, int i) {
