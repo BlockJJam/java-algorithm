@@ -44,7 +44,8 @@
   | 1 | [트리부모찾기](https://www.acmicpc.net/problem/11725) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/tree/FindTreeParent_11725.java) |
   | 2 | [트리순회](https://www.acmicpc.net/problem/1991) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/tree/TreeOrder_1991.java) |
   | 3 | [완전이진트리](https://www.acmicpc.net/problem/9934) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/tree/CompleteBinaryTree_9934.java) |
-  | 4 | [단절선과 단절선](https://www.acmicpc.net/problem/14675) | [not yet]() |
+  | 4 | [단절선과 단절선](https://www.acmicpc.net/problem/14675) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/tree/CutVertexAndCutEdge_14675.java) |
+
 - 수학
 
   | 순번 | 이름 | 풀이여부 |
@@ -53,7 +54,7 @@
   | 2 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/math/GCDLCM_2609.java) |
   | 3 | [LCM](https://www.acmicpc.net/problem/5347) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/math/LCM_5347.java) |
   | 4 | [소수와 펠린드롬](https://www.acmicpc.net/problem/1747) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/math/PrimeAndPelindrome_1747.java) |
-  | 5 | [폰 호석만](https://www.acmicpc.net/problem/21275) | [not yet]() |
+  | 5 | [폰 호석만](https://www.acmicpc.net/problem/21275) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/math/VonHoSoeckMan_21275.java) |
   
 - 그리디
 
