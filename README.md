@@ -63,7 +63,7 @@
   | 1 | [거스름돈](https://www.acmicpc.net/problem/14916) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Change_14916.java)|
   |  2 | [폴리오미노](https://www.acmicpc.net/problem/1343) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Polyomino_1343.java) |
   | 3 | [로프](https://www.acmicpc.net/problem/2217) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/Rope_2217.java) |
-  | 4 | [주유소](https://www.acmicpc.net/problem/13305) | [not yet]() |
+  | 4 | [주유소](https://www.acmicpc.net/problem/13305) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/GasStation_13305.java) |
 
 - 동적 계획법
 
@@ -72,7 +72,7 @@
   | 1 |  [다리놓기](https://www.acmicpc.net/problem/1010)| [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/Bridge_1010.java) |
   | 2 | [돌게임](acmicpc.net/problem/9655) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/StoneGame_9655.java) |
   | 3 | [FourSquares](https://www.acmicpc.net/problem/17626) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/FourSquares_17626.java) |
-  | 4 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [not yet]() |
+  | 4 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/GasStation_13305.java) |
   | 5 | [줄세우기](https://www.acmicpc.net/problem/2631) | [not yet]() |
 
 - 투포인터
