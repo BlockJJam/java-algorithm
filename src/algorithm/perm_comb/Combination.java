@@ -8,14 +8,14 @@ public class Combination {
     static int N = 4;
 
     public static void main(String[] args) {
-//        comb(0,2);
+        comb(0,3);
         output = new int[4];
-        dupComb(0,0,4);
+//        dupComb(0,0,4);
     }
 
     // 일반 조합
     public static void comb(int start, int r){
-        if(start == r){
+        if(r == 0){
             for(int i=0; i< visited.length; i++){
                 if(visited[i]){
                     System.out.print(arr[i] + " ");
@@ -29,7 +29,7 @@ public class Combination {
         for(int i=start; i<N; i++){
             if(!visited[i]){
                 visited[i] = true;
-                comb(start+1, r);
+                comb(i+1, r-1);
                 visited[i] = false;
             }
         }
