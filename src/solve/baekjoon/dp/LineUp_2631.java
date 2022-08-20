@@ -14,7 +14,7 @@ public class LineUp_2631 {
     public static void main(String[] args) {
         FastReader rd = new FastReader();
 
-        // O(N^2)
+        // O(N*logN)
 //        int n = rd.nextInt();
 //        int[] arr = new int[n];
 //        List<Integer> list = new ArrayList<>();
@@ -44,7 +44,7 @@ public class LineUp_2631 {
 //        }
 //        System.out.println(n - list.size());
 
-        // O(N*logN)
+        // O(N^2)
         int n = rd.nextInt();
         int[] dp = new int[n];
         int[] arr = new int[n];
