@@ -73,7 +73,7 @@
   | 2 | [돌게임](acmicpc.net/problem/9655) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/StoneGame_9655.java) |
   | 3 | [FourSquares](https://www.acmicpc.net/problem/17626) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/FourSquares_17626.java) |
   | 4 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/greedy/GasStation_13305.java) |
-  | 5 | [줄세우기](https://www.acmicpc.net/problem/2631) | [not yet]() |
+  | 5 | [줄세우기](https://www.acmicpc.net/problem/2631) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/dp/LineUp_2631.java) |
 
 - 투포인터
 
@@ -82,7 +82,7 @@
   | 1 | [블로그](https://www.acmicpc.net/problem/21921) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/twopointer/Blog_21921.java) |
   | 2 | [겹치는건싫어](https://www.acmicpc.net/problem/20922) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/twopointer/HateOverlap_20922.java) |
   | 3 | [회전초밥](https://www.acmicpc.net/problem/15961) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/twopointer/RotateSusi_15961.java) |
-  | 4 | [두 용액](https://www.acmicpc.net/problem/2470) | [not yet]() |
+  | 4 | [두 용액](https://www.acmicpc.net/problem/2470) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/twopointer/TwoSolution_2470.java) |
 - 구현
 
   | 순번 | 이름 | 풀이여부 |
@@ -90,7 +90,7 @@
   | 1 | [상어초등학교](https://www.acmicpc.net/problem/21608) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/implement/SharkElementarySchool_21608.java) |
   | 2 | [지뢰찾기](https://www.acmicpc.net/problem/4396) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/s채rc/solve/baekjoon/implement/MineSearching_4396.java) |
   | 3 | [소가 길을 건너간 이유1](https://www.acmicpc.net/problem/14467) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/implement/CowCrossReason_14467.java) |
-  | 4 | [ZOAC 3](https://www.acmicpc.net/problem/20436) | [not yet]() |
+  | 4 | [ZOAC 1](https://www.acmicpc.net/problem/16719) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/implement/ZOAC1_16719.java) |
 
 - BFS & DFS
 
@@ -99,8 +99,8 @@
   | 1 | [DFS와BFS](https://www.acmicpc.net/problem/1260) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/BfsDfs_1260.java) |
   | 2 | [효율적인 탐색](https://www.acmicpc.net/problem/1325) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/EffectiveHacking_1325.java) |
   | 3 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/MiroSearch.java) |
-  | 4 | [봄버맨](https://www.acmicpc.net/problem/16918) | [not yet]() |
-  | 5 | [치즈](https://www.acmicpc.net/problem/2636) | [not yet]() |
+  | 4 | [봄버맨](https://www.acmicpc.net/problem/16918) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/BomberMan_16918.java) |
+  | 5 | [치즈](https://www.acmicpc.net/problem/2636) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/graph/Cheeze_2636.java) |
 - 완전 탐색
 
   | 순번 | 이름 | 풀이여부 |
