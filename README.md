@@ -108,14 +108,14 @@
   | 1 | [DNA](https://www.acmicpc.net/problem/1969) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/Dna_1969.java) |
   | 2 | [카드놓기](https://www.acmicpc.net/problem/5568) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/PlaceCard_5568.java) |
   | 3 | [코인게임](https://www.acmicpc.net/problem/9079) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/CoinGame_9079.java) |
-  | 4 | [퇴사](https://www.acmicpc.net/problem/14501) | [not yet]() |
+  | 4 | [퇴사](https://www.acmicpc.net/problem/14501) | [done]() |
 - 시뮬레이션
 
   | 순번 | 이름 | 풀이여부 |
   | --- | --- | --- |
   | 1 | [인구이동](https://www.acmicpc.net/problem/16234) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/simulation/PopulationMigration_16234.java) |
   | 2 | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/simulation/MagicSharkAndRain_21610.java) |
-  | 3 | [드래곤 커브](https://www.acmicpc.net/problem/15685) | [not yet]() |
+  | 3 | [드래곤 커브](https://www.acmicpc.net/problem/15685) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/bruteforce/LeaveCompany_14501.java) |
 
 
 - 이분탐색
@@ -125,7 +125,7 @@
   | 1 | [숫자카드](https://www.acmicpc.net/problem/10815) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/binarysearch/NumberCard_10815.java) |
   | 2 | [나무자르기](https://www.acmicpc.net/problem/2805) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/binarysearch/TreeCutting_2805.java) |
   | 3 | [랜선자르기](https://www.acmicpc.net/problem/1654) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/binarysearch/LanCutting_1654.java) |
-  | 4 | [예산](https://www.acmicpc.net/problem/2512) | [not yet]() |
+  | 4 | [예산](https://www.acmicpc.net/problem/2512) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/simulation/DragonCurve_15685.java) |
 
 - 백트래킹
 
