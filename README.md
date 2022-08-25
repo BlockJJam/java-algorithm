@@ -125,7 +125,7 @@
   | 1 | [숫자카드](https://www.acmicpc.net/problem/10815) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/binarysearch/NumberCard_10815.java) |
   | 2 | [나무자르기](https://www.acmicpc.net/problem/2805) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/binarysearch/TreeCutting_2805.java) |
   | 3 | [랜선자르기](https://www.acmicpc.net/problem/1654) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/binarysearch/LanCutting_1654.java) |
-  | 4 | [예산](https://www.acmicpc.net/problem/2512) | [not yet]() |
+  | 4 | [예산](https://www.acmicpc.net/problem/2512) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/binarysearch/Budget_2512.java) |
 
 - 백트래킹
 
