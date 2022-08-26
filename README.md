@@ -133,7 +133,7 @@
   | --- | --- | --- |
   | 1 | [계랸으로 계란치기](https://www.acmicpc.net/problem/16987) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/backtracking/BreakEgg_16987.java) |
   | 2 | [넴모넴모](https://www.acmicpc.net/problem/14712) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/backtracking/NemoNemo_14712.java) |
-  | 3 | [무기 공학](https://www.acmicpc.net/problem/18430) | [not yet]() |
+  | 3 | [무기 공학](https://www.acmicpc.net/problem/18430) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/backtracking/WeaponEngineer_18430.java) |
 
 
 - 분할정복
