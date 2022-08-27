@@ -143,7 +143,7 @@
   | 1 | [색종이 만들기](https://www.acmicpc.net/problem/2630) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/divideconquer/ColorPaperMake_2630.java) |
   | 2 | [222-풀링](https://www.acmicpc.net/problem/17829) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/divideconquer/Pooling222_17829.java) |
   | 3 | [투에-모스 문자열](https://www.acmicpc.net/problem/18222) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/divideconquer/ThueMorseString_18222.java) |
-  | 4 | [트리](https://www.acmicpc.net/problem/4256) | [not yet]() |
+  | 4 | [트리](https://www.acmicpc.net/problem/4256) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/divideconquer/Tree_4256.java) |
 
 - 누적 합
 
@@ -152,7 +152,7 @@
   | 1 | [출석체크](https://www.acmicpc.net/problem/20438) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/segmenttree/AttendCheck_20438.java) |
   | 2 | [구간합 구하기5](https://www.acmicpc.net/problem/11660) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/segmenttree/SegmentSum5_11660.java) |
   | 3 | [피아노 체조](https://www.acmicpc.net/problem/21318) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/segmenttree/PianoGymnastic_21318.java) |
-  | 4 | [니가 싫어 싫어 너무 싫어 싫어 오지 마 내게 찝쩍대지마](https://www.acmicpc.net/problem/20440) | [not yet]() |
+  | 4 | [니가 싫어 싫어 너무 싫어 싫어 오지 마 내게 찝쩍대지마](https://www.acmicpc.net/problem/20440) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/segmenttree/IHateYou_20440.java) |
 
 - 문자열
 
