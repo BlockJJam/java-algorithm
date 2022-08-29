@@ -190,7 +190,7 @@
   | 1 | [네트워크연결](https://www.acmicpc.net/problem/1922) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/mst/NetworkConnection_1922.java) |
   | 2 | [도시분할계획](https://www.acmicpc.net/submit/1647) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/mst/TownDividePlan_1647.java) |
   | 3 | [행성연결](https://www.acmicpc.net/problem/16398) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/mst/PlanetConnection_16398.java) |
-  | 4 | [도시 건설](https://www.acmicpc.net/problem/21924) | [not yet]() |
+  | 4 | [도시 건설](https://www.acmicpc.net/problem/21924) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/mst/CityBuild_21924.java) |
 
 - Disjoint Set(분리집합)
 
@@ -199,7 +199,7 @@
   | 1 | [여행 가자](https://www.acmicpc.net/problem/1976) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/disjointset/GoTrip_1969.java) |
   | 2 | [로봇 조립](https://www.acmicpc.net/problem/18116) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/disjointset/MakeRobot_18116.java) |
   | 3 | [친구비](https://www.acmicpc.net/problem/16562) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/disjointset/FriendsCost_16562.java) |
-  | 4 | [거짓말](https://www.acmicpc.net/problem/1043) | [not yet]() |
+  | 4 | [거짓말](https://www.acmicpc.net/problem/1043) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/disjointset/Lie_1043.java) |
 
 - Trie
 
