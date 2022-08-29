@@ -163,7 +163,7 @@
   | 3 | [부분문자열](https://www.acmicpc.net/problem/16916)  | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/string/PartialString_16916.java) |
   | 4 | [크로아티아 알파벳](https://www.acmicpc.net/problem/2941) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/string/CroatiaAlphabet_2941.java) |
   | 5 | [접미사 배열](https://www.acmicpc.net/problem/11656) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/string/SuffixArray_11656.java) |
-  | 6 | [놀라운 문자열](https://www.acmicpc.net/problem/1972) | [not yet]() |
+  | 6 | [놀라운 문자열](https://www.acmicpc.net/problem/1972) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/string/SupriseString_1972.java) |
 
 - 최단거리
 
@@ -172,7 +172,7 @@
   | 1 | [특정거리의 도시 찾기](https://www.acmicpc.net/problem/18352) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/shortestpath/SpecificTownSearch_18352.java)  |
   | 2 | [숨바꼭질3](https://www.acmicpc.net/problem/13549) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/shortestpath/HideAndSeek3_13549.java) |
   | 3 | [끝나지 않는 파티](https://www.acmicpc.net/problem/11265) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/shortestpath/NeverStopParty_11265.java) |
-  | 4 | [서강그라운드](https://www.acmicpc.net/problem/14938) | [not yet]() |
+  | 4 | [서강그라운드](https://www.acmicpc.net/problem/14938) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/shortestpath/SeoGangGround_14938.java) |
 
 - 위상정렬
 
