@@ -181,7 +181,7 @@
   | 1 | [선수과목](https://www.acmicpc.net/problem/14567) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/topological/Prerequisite_14567.java) |
   | 2 | [ACM Craft](https://www.acmicpc.net/problem/1005) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/topological/ACMCraft_1005.java) |
   | 3 | [음악프로그램](https://www.acmicpc.net/problem/2623) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/topological/MusicProgram_2623.java) |
-  | 4 | [영우는 사기꾼?](https://www.acmicpc.net/problem/14676) | [not yet]() |
+  | 4 | [영우는 사기꾼?](https://www.acmicpc.net/problem/14676) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/topological/YoungWooLiar_14676.java) |
   
 - 최소스패닝트리(MST, Kruskal, Prim)
 
@@ -216,7 +216,6 @@
   | --- | --- | --- |
   | 1 |  |  |
   |  |  |  |
-
 
 
 - 구간 탐색(이진, 점프, 보간, 지수)
