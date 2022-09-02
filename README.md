@@ -208,7 +208,7 @@
   | 1 | [문자열 지옥에 빠진 호석](https://www.acmicpc.net/problem/20166) | [12/16](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/trie/GoToStringHell_20166.java) |
   | 2 | [전화번호 목록](https://www.acmicpc.net/problem/5052) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/trie/PhoneBook_5052.java) |
   | 3 | [개미굴](https://www.acmicpc.net/problem/14725) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/trie/AntDen_14725.java) |
-  | 4 | [Boggle](https://www.acmicpc.net/problem/9202) | [not yet]() |
+  | 4 | [Boggle](https://www.acmicpc.net/problem/9202) | [done](https://github.com/BlockJJam/java-algorithm/blob/main/src/solve/baekjoon/trie/Boggle_9202.java) |
 
 - DP on Tree
 
