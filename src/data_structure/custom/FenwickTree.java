@@ -6,7 +6,7 @@ public class FenwickTree {
     public static void update(int idx, long diffValue){
         while(idx < tree.length){
             tree[idx] += diffValue;
-            idx += (idx & -idx);
+            idx += (idx & -idx); // 비트 연산자로, 2의 보수( 1의 보수(0->1, 1->0) + 1)
         }
     }
 
