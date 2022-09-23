@@ -8,7 +8,7 @@ public class NumberGame {
         int answer = -1;
         answer = 0;
         int arrLen = A.length;
-        // B의 가장 큰놈 순서대로, A팀의 가장 큰놈을 상대해야 한다.
+        // B의 가장 큰놈 순서대로, A팀의 가장 큰놈을 상대해야 한다. int[] -> Integer
         Integer[] ABoxed  = Arrays.stream(A).boxed().toArray(Integer[]::new);
         Integer[] BBoxed = Arrays.stream(B).boxed().toArray(Integer[]::new);
 

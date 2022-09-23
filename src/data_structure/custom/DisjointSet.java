@@ -17,8 +17,8 @@ import java.util.Arrays;
  *      : 두 원소가 같은 집합에 있는지 여부를 확인하려는 곳
  */
 public class DisjointSet {
-    int parent[];
-    int rank[];
+    int[] parent;
+    int[] rank;
 
     public DisjointSet(int n){
         this.parent= new int[n+1];

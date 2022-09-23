@@ -3,11 +3,15 @@ package data_structure.custom;
 import java.util.*;
 
 /**
+ * 반복 하는 부분 문자열을 최대 길이, 최대 문자열
+ *
  * # 단순 구현으로 접미사 배열 만들기
  *   - 시간 복잡도: String length = N, O(N^2 * logN)
  *
  * # 멘버-마이어스 알고리즘으로 접미사 배열만들기
  *   - 시간 복잡도: String length = N, O(N * (logN)^2)
+ *
+ *   어디서 많이 쓰일까??
  */
 public class SuffixArray {
     public static void main(String[] args) {

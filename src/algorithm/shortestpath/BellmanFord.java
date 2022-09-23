@@ -78,7 +78,7 @@ public class BellmanFord {
                 int next = e[j].v;
                 int cost = e[j].cost;
 
-                if(dist[e[j].u] != INF) {
+                if(dist[cur] != INF) {
                     if(dist[next] > (dist[cur] + cost)){
                         dist[next] = dist[cur] + cost;
 

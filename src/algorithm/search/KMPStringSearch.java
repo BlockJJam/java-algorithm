@@ -1,5 +1,11 @@
 package algorithm.search;
 
+/**
+ * KMP 언제쓸까?
+ * - 전체 문자열 중에 특정 문자열을 찾을 때, KMP가 없다면 -> 이중 for문을 통해 문자열을 검색할 것이다
+ * - [전체 문자열에서 불일치가 발생하기 직전까지 같았던 부분]을 다시 비교하지 말고 패턴 매칭을 통해 진행하자
+ *
+ */
 public class KMPStringSearch {
     public static void main(String[] args) {
         String text = "ababacabacaaba";
