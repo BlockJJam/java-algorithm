@@ -1,8 +1,4 @@
-package solve.programmers.summerwinter;
-
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
+package solve.programmers.summerwinter1;
 
 public class JumpAndTeleport {
     // 쓸데없이 이것 저것 붙인 나의 풀이..

@@ -1,4 +1,4 @@
-package solve.programmers.summerwinter;
+package solve.programmers.summerwinter1;
 
 import java.util.Arrays;
 

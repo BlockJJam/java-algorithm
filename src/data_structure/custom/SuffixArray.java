@@ -115,10 +115,10 @@ public class SuffixArray {
                     return group[o1] - group[o2];
                 }
                 int left = o1 + t, right = o2 + t;
-                if (o1 + t > n) {
+                if (left > n) {
                     left = n;
                 }
-                if(o2 + t > n){
+                if(right > n){
                     right = n;
                 }
                 return group[left] - group[right];

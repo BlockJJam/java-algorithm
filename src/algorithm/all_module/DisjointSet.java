@@ -2,6 +2,13 @@ package algorithm.all_module;
 
 import java.util.Arrays;
 
+/**
+ * set은 리스트와 달리 순서를 고려하지 않는다
+ * A모든 원소가 B에 포함 될 때, A를 B의 부분집합이라 한다.(B는 superSet)
+ * 공유하는 원소가 없으면, A와 B는 mutual하다
+ * 분할한다는 것 = 각 부분집합이 1) 다시 합치면 원래의 set으로 된다. 2) 각 부분집합이 mutual하다
+ *
+ */
 public class DisjointSet {
     int[] parent;
     int[] rank;

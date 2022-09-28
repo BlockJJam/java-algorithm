@@ -31,7 +31,6 @@ public class Dijkstra {
         while(!pq.isEmpty()){
             Node curr = pq.poll();
 
-
             if(dist[curr.next] >= curr.cost){
                 for(int i=0; i < graph.get(curr.next).size(); i++){
                     Node next = graph.get(curr.next).get(i);
