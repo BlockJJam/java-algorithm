@@ -27,28 +27,20 @@ public class TaxiCost {
             graph.get(to).add(new Node(from, cost));
         }
 
-        int[] dist = dijkstra();
-        qA = searchPath(A);
-        qB = searchPath(B);
-
-        answer += dist[A];
-        answer += dist[B];
-
-        int samePoint = -1;
-        while(!qA.isEmpty() && !qB.isEmpty()){
-            int aPoint = qA.poll();
-            int bPoint = qB.poll();
-            if(aPoint != bPoint){
-                break;
-            }
-            samePoint = aPoint;
+        int[] distFirst = dijkstra(S);
+        int minDist = Integer.MAX_VALUE;
+        for(int i=1; i < distFirst.length; i++){
+            int dist = distFirst[i];
+            int[] startDist = dijkstra(i);
+            int aDist = startDist[A];
+            int bDist = startDist[B];
+            minDist = Math.min(minDist, dist + aDist + bDist);
+            System.out.println("minDist = " + dist + " " + aDist + " " + bDist);
         }
+//        qA = searchPath(A);
+//        qB = searchPath(B);
 
-        if(samePoint != -1){
-            System.out.println("!!!");
-            answer -= dist[samePoint];
-        }
-
+        answer = minDist;
         System.out.println("answer = " + answer);
 
         return answer;
@@ -59,14 +51,14 @@ public class TaxiCost {
     static int[] parents;
     static Queue<Integer> qA, qB;
 
-    public static int[] dijkstra(){
+    public static int[] dijkstra(int start){
         int[] dist = new int[V+1];
         Arrays.fill(dist, Integer.MAX_VALUE);
 
         PriorityQueue<Node> pq = new PriorityQueue<>((o1,o2)-> Integer.compare(o1.cost, o2.cost));
 
-        pq.offer(new Node(S, 0));
-        dist[S] = 0;
+        pq.offer(new Node(start, 0));
+        dist[start] = 0;
 
         while(!pq.isEmpty()){
             Node curr = pq.poll();
@@ -118,12 +110,33 @@ public class TaxiCost {
         solution(6,4,6,2, new int[][]{
                 new int[]{4,1,10},
                 new int[]{3,5,24},
+                new int[]{5,6,2},
                 new int[]{3,1,41},
                 new int[]{5,1,24},
                 new int[]{4,6,50},
                 new int[]{2,3,22},
                 new int[]{2,4,66},
                 new int[]{1,6,25}
+        });
+        System.out.println();
+        solution(7,3,4,1, new int[][]{
+                new int[]{5,7,9},
+                new int[]{4,6,4},
+                new int[]{3,6,1},
+                new int[]{3,2,3},
+                new int[]{5,1,24},
+                new int[]{2,1,6}
+        });
+        System.out.println();
+        solution(6,4,5,6, new int[][]{
+                new int[]{2,6,6},
+                new int[]{6,3,7},
+                new int[]{4,6,7},
+                new int[]{6,5,11},
+                new int[]{2,5,12},
+                new int[]{5,3,20},
+                new int[]{2,4,8},
+                new int[]{4,3,9},
         });
     }
 }
