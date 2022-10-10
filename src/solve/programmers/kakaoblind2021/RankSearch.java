@@ -5,6 +5,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 
+/**
+ * 순위 탐색
+ * - info의 경우, 각 항목 조건 4가지를 " "로 구분했기 때문에, 점수를 담는 리스트를 값으로 Map에 저장
+ * - 단, 모든 조건에 -인 경우를 생각해서, key value를 저장한다.
+ * - 모든 map의 값인 리스트를 sort한다.
+ * - query에서 " and "를 모두 제거하고, map에 저장된 해당 키의 리스트에서 query의 점수보다 높은 점수를 갖는 원소갯수를 구한다.
+ * - 위에서 찾는 과정을 binary search로 탐색한다.
+ */
 public class RankSearch {
 
     static HashMap<String, ArrayList<Integer>> map = new HashMap<>();
@@ -18,10 +26,12 @@ public class RankSearch {
             makeSentence(splited, "", 0);
         }
 
+        // map에 저장된 info 후보군의 점수 리스트들을 모두 sorting한다.
         for(String str : map.keySet()){
             Collections.sort(map.get(str));
         }
 
+        // query의 조건 키값과 점수를 나누어, map에서 해당 조건 키값의 점수 리스트를 불러와 이진 탐색으로 점수 이상의 지원자를 찾는다.
         for(int i =0; i<query.length; i++){
             query[i] = query[i].replaceAll(" and ", "");
             String[] q = query[i].split(" ");

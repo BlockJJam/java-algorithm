@@ -16,8 +16,8 @@ public class TaxiCost {
         for (int i = 0; i < V + 1; i++) {
             graph.add(new ArrayList<>());
         }
-        parents = new int[V+1];
 
+        // 모든 그래프 값을 채워넣는다. 양방향 주의
         for(int i=0 ;i< fares.length;i++){
             int from = fares[i][0];
             int to = fares[i][1];
@@ -27,9 +27,12 @@ public class TaxiCost {
             graph.get(to).add(new Node(from, cost));
         }
 
+        // 시작지점에서 모든 정점까지의 최단거리를 구해놓는다.
         int[] distFirst = dijkstra(S);
+
         int minDist = Integer.MAX_VALUE;
         for(int i=1; i < distFirst.length; i++){
+            // 모든 정점이 중간지점이 되어, 시작지점 - 중간지점, 중간 지점 - A/B까지 거리의 최솟값을 구한다.
             int dist = distFirst[i];
             int[] startDist = dijkstra(i);
             int aDist = startDist[A];
@@ -37,8 +40,6 @@ public class TaxiCost {
             minDist = Math.min(minDist, dist + aDist + bDist);
             System.out.println("minDist = " + dist + " " + aDist + " " + bDist);
         }
-//        qA = searchPath(A);
-//        qB = searchPath(B);
 
         answer = minDist;
         System.out.println("answer = " + answer);
@@ -46,12 +47,12 @@ public class TaxiCost {
         return answer;
     }
 
-    static int V, S, A, B;
-    static ArrayList<ArrayList<Node>> graph;
-    static int[] parents;
-    static Queue<Integer> qA, qB;
+    static int V, S, A, B;  // 정점, 출발지, A지점, B지점 순
+    static ArrayList<ArrayList<Node>> graph; // 모든 경로를 담는다.
 
     public static int[] dijkstra(int start){
+        // 시작 지점을 입력받아, 해당 노드에서 인접한 정점의 이동거리를 최단거리로 업데이트 하고,
+        // 인접 정점 중에 가장 비용이 적은 곳부터 순회한다.(pq이용)
         int[] dist = new int[V+1];
         Arrays.fill(dist, Integer.MAX_VALUE);
 
@@ -71,29 +72,12 @@ public class TaxiCost {
                     if(curr.cost + next.cost < dist[next.next]){
                         dist[next.next] = curr.cost + next.cost;
                         pq.add(new Node(next.next, dist[next.next]));
-                        parents[next.next] = curr.next;
                     }
                 }
             }
         }
 
         return dist;
-    }
-
-    public static Queue<Integer> searchPath(int dest){
-        Queue<Integer> q = new LinkedList<>();
-        int curr = dest;
-        System.out.println("curr = " + curr);
-        while(curr != S){
-            q.offer(curr);
-            curr = parents[curr];
-            System.out.println("curr = " + curr);
-        }
-
-        q.offer(curr);
-
-        System.out.println("end");
-        return q;
     }
 
     static class Node{
